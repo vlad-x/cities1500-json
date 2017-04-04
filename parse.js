@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const data = fs.readFileSync('cities15000.txt').toString()
+const data = fs.readFileSync('./node_modules/cities15000/cities15000.txt').toString()
 
 const fields = [
   'id',
@@ -34,5 +34,6 @@ const out = data.split('\n')
     console.log(obj.id, obj.name, obj.population)
     return obj
   })
+  .filter(rec => Boolean(rec.id))
 
 fs.writeFileSync('cities.json', JSON.stringify(out, false, 2))

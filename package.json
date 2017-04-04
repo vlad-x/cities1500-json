@@ -4,7 +4,7 @@
   "description": "cities15000 in JSON",
   "main": "cities.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node parse"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/vlad-x/cities1500-json/issues"
   },
-  "homepage": "https://github.com/vlad-x/cities1500-json#readme"
+  "homepage": "https://github.com/vlad-x/cities1500-json#readme",
+  "devDependencies": {
+    "cities15000": "0.0.1"
+  }
 }
