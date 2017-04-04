@@ -1,0 +1,24 @@
+{
+  "name": "cities15000-json",
+  "version": "1.0.0",
+  "description": "cities15000 in JSON",
+  "main": "cities.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlad-x/cities1500-json.git"
+  },
+  "keywords": [
+    "cities",
+    "city",
+    "names"
+  ],
+  "author": "vlad@difogic.com",
+  "license": "CC-BY-3.0",
+  "bugs": {
+    "url": "https://github.com/vlad-x/cities1500-json/issues"
+  },
+  "homepage": "https://github.com/vlad-x/cities1500-json#readme"
+}
